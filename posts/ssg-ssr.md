@@ -79,11 +79,13 @@ export default BlogPost;
 
 
 
+
 EXAMPLE USING SSR 
 
 // pages/blog/[slug].js
 
 import Head from 'next/head';
+
 function BlogPost({ blog }) {
   return (
     <div>
